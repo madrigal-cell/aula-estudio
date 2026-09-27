@@ -97,16 +97,16 @@ function render(){
 }
 function renderHome(){
   setAccent(null);
-  const order=['mat','geo','bio','fyq','tec'];
+  const order=(window.SUBJECT_ORDER||['mat','geo','bio','fyq','tec']).filter(k=>SUBJECTS[k]);
   const cards=order.map(k=>{const s=SUBJECTS[k];const p=progressOf(s);return `<button class="subject" data-s="${k}" style="--sc:var(--${s.color})"><span class="name">${s.name}</span><span class="tema">${esc(s.tema)}</span><span class="small">${p.done} de ${p.total} completados</span><span class="bar"><i style="width:${p.pct}%"></i></span></button>`;}).join('');
-  const mt=SUBJECTS.mat.task;
+  const tasks=order.map(k=>SUBJECTS[k]).filter(s=>s&&s.task).map(s=>{const done=store.get('done:'+s.task.id,false);return `<div class="row between" style="padding:6px 0;border-top:1px solid var(--line)"><div><div class="t">${esc(s.name)}: ${esc(s.task.title)}</div><div class="small">${esc(s.task.due)}${done?' · ✔ revisada':''}</div></div><button class="btn small" data-task="${s.id}" style="--accent:var(--${s.color})">Abrir</button></div>`;}).join('');
   app.innerHTML=topbar()+`
-   <div class="today"><div><div class="eyebrow">Para hoy</div><div class="t">Matemáticas: operaciones con fracciones</div><div class="small">${esc(mt.due)}</div></div><button class="btn" id="go-task" style="--accent:var(--mat)">Hacer la tarea guiada</button></div>
+   <div class="today" style="display:block"><div class="eyebrow" style="margin-bottom:6px">Tareas pendientes</div>${tasks||'<p class="small">No hay tareas pendientes.</p>'}</div>
    <div class="eyebrow" style="margin-bottom:10px">Asignaturas</div>
    <div class="grid">${cards}</div>
    <div class="card" style="margin-top:22px"><h3>Cómo usar esta aula</h3><p>Elige una asignatura y una lección. Cada pantalla tiene <strong>una sola idea</strong>. Lee o pulsa <strong>Escuchar</strong>, y cuando lo tengas, pasa a la siguiente. Cada 12 minutos te avisamos para descansar.</p><p class="small">Los botones "Aa letra" y "A+ tamaño" cambian la tipografía si te resulta más cómoda otra. Tu progreso se guarda en este navegador.</p></div>`;
   bindTop();
-  $('#go-task').onclick=()=>go('lesson',SUBJECTS.mat,mt);
+  app.querySelectorAll('[data-task]').forEach(b=>b.onclick=()=>{const s=SUBJECTS[b.dataset.task];go('lesson',s,s.task);});
   app.querySelectorAll('.subject').forEach(b=>b.onclick=()=>go('subject',SUBJECTS[b.dataset.s]));
 }
 function renderSubject(){
