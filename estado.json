@@ -1,0 +1,45 @@
+{
+  "actualizado": "2026-09-27",
+  "clases": {
+    "ODg1MTAwNzkzOTUy": {
+      "nombre": "3ESO Matemáticas", "id_web": "mat", "archivo": "mat.js",
+      "temas": ["Tema 01. Números racionales e irracionales"],
+      "materiales": ["Site de Matemáticas de 3º ESO (23 sept)", "Presentación de la asignatura (15 sept)", "Apuntes Unidad 1 (site)"],
+      "tareas": [{"titulo": "260924-Operaciones con fracciones", "entrega": "2026-09-27 23:59", "id_web": "mtask"}],
+      "lecciones": ["m1","m2","m3","m4","m5","m6","m7","m8"]
+    },
+    "ODc4MDM0NTM0OTIz": {
+      "nombre": "Geografía 3º A", "id_web": "geo", "archivo": "geo-bio.js",
+      "temas": ["La Geografía y el trabajo del geógrafo"],
+      "materiales": ["Tema 1. La geografía y el trabajo del geógrafo (13 sept)", "Enlaces para practicar el mapa político de España (22 sept)"],
+      "tareas": [{"titulo": "Actividad 1. Tema 1 (fotografías aéreas)", "entrega": "sin fecha", "id_web": "gtask"}],
+      "lecciones": ["g1","g2","g3","g4","g5","g6","g7"]
+    },
+    "ODc3MzE5ODcyNDI5": {
+      "nombre": "3ºESO A. 26/27 (Física y Química)", "id_web": "fyq", "archivo": "fyq-tec.js",
+      "temas": ["UD1 La actividad científica"],
+      "materiales": ["INF. BASICA UD1 (17 sept)", "EJERC.UD1 (17 sept)", "Cuadro SI (22 sept)", "Site FyQ (16 sept)"],
+      "tareas": [{"titulo": "Ejercicios 7-12 de la ficha (anuncios 23 y 25 sept)", "entrega": "próxima clase", "id_web": "ftask"}],
+      "anuncios_procesados": ["16/09/26", "17/09/26", "22/09/26", "23/09/26", "25/09/26"],
+      "lecciones": ["f1","f2","f3","f4","f5"]
+    },
+    "ODI2NDE4MjY0Mjk3": {
+      "nombre": "ByG 3ºESO A", "id_web": "bio", "archivo": "geo-bio.js",
+      "temas": ["01. EL SER HUMANO"],
+      "materiales": ["PRESENTACIÓN UNIDAD 1. EL SER HUMANO (23 sept)"],
+      "tareas": [{"titulo": "23.09.26: ORGANIZACIÓN DEL SER HUMANO (esquema)", "entrega": "próxima clase", "id_web": "btask"}],
+      "lecciones": ["b1","b2","b3","b4","b5","b6","b7","b8"]
+    },
+    "ODg0ODgwNjUzMjM3": {
+      "nombre": "TECNOLOGÍA 26/27", "id_web": "tec", "archivo": "fyq-tec.js",
+      "temas": [],
+      "materiales": ["Site tecnología (21 sept)"],
+      "anuncios_procesados": ["21 sept preguntas de la semana (central termoeléctrica)", "25 sept documentales cambio climático"],
+      "lecciones": ["t1","t2"]
+    },
+    "ODg0ODc0MDgwOTQ5": {
+      "nombre": "Portal 3º de ESO (tutoría)", "id_web": null,
+      "materiales": ["Normas de convivencia (14 sept)", "Horarios de tutoría (14 sept)"]
+    }
+  }
+}
