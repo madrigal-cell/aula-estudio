@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-27",
+  "actualizado": "2026-09-29",
   "clases": {
     "ODg1MTAwNzkzOTUy": {
       "nombre": "3ESO Matemáticas", "id_web": "mat", "archivo": "mat.js",
@@ -21,13 +21,15 @@
       "materiales": ["INF. BASICA UD1 (17 sept)", "EJERC.UD1 (17 sept)", "Cuadro SI (22 sept)", "Site FyQ (16 sept)"],
       "tareas": [{"titulo": "Ejercicios 7-12 de la ficha (anuncios 23 y 25 sept)", "entrega": "próxima clase", "id_web": "ftask"}],
       "anuncios_procesados": ["16/09/26", "17/09/26", "22/09/26", "23/09/26", "25/09/26"],
+      "pendiente": "Anuncio 29/09/26 'REPASO CAMBIOS DE UNIDADES POR FACTORES DE CONVERSIÓN. EJERCICIOS 13, 14 Y 15' visto el 29 sept pero NO procesado: falta leer los ejercicios 13-15 de EJERC.UD1FYQ3ºESO.pdf (Classroom cargaba muy lento) y crear la tarea guiada (sustituir ftask, que ya cubre 7-12). Hacerlo en la próxima ejecución.",
       "lecciones": ["f1","f2","f3","f4","f5"]
     },
     "ODI2NDE4MjY0Mjk3": {
       "nombre": "ByG 3ºESO A", "id_web": "bio", "archivo": "geo-bio.js",
       "temas": ["01. EL SER HUMANO"],
-      "materiales": ["PRESENTACIÓN UNIDAD 1. EL SER HUMANO (23 sept)"],
+      "materiales": ["PRESENTACIÓN UNIDAD 1. EL SER HUMANO (23 sept)", "Padlet ByG 3º ESO (15 sept, tablón)", "Site ByG 3º ESO (15 sept, tablón)", "Vídeos Introducción a la Biología (16 sept, tablón)"],
       "tareas": [{"titulo": "23.09.26: ORGANIZACIÓN DEL SER HUMANO (esquema)", "entrega": "próxima clase", "id_web": "btask"}],
+      "aviso": "29 sept: en el tablón todas las publicaciones (presentación UD1, tarea 23.09, padlet, site, vídeos) aparecen marcadas como 'Eliminado' por la profesora. Las lecciones b1-b8 y btask se conservan en la web. Vigilar si publica material nuevo.",
       "lecciones": ["b1","b2","b3","b4","b5","b6","b7","b8"]
     },
     "ODg0ODgwNjUzMjM3": {
@@ -35,11 +37,13 @@
       "temas": [],
       "materiales": ["Site tecnología (21 sept)"],
       "anuncios_procesados": ["21 sept preguntas de la semana (central termoeléctrica)", "25 sept documentales cambio climático"],
+      "pendiente": "29 sept: tablón y trabajo de clase de Tecnología no se pudieron revisar (Classroom no cargaba). Revisar en la próxima ejecución.",
       "lecciones": ["t1","t2"]
     },
     "ODg0ODc0MDgwOTQ5": {
       "nombre": "Portal 3º de ESO (tutoría)", "id_web": null,
-      "materiales": ["Normas de convivencia (14 sept)", "Horarios de tutoría (14 sept)"]
+      "materiales": ["Normas de convivencia (14 sept)", "Horarios de tutoría (14 sept)"],
+      "pendiente": "29 sept: no se pudo revisar (Classroom no cargaba). Revisar en la próxima ejecución."
     }
   }
 }
