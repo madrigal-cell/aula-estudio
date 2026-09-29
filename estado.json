@@ -1,5 +1,6 @@
 {
   "actualizado": "2026-09-29",
+  "recordatorio_rutina": "En CADA ejecución (aunque no haya novedades): subir config.js con window.LAST_UPDATE.revision = hora actual de Madrid (ISO con +02:00 en verano / +01:00 en invierno). Si se publica contenido nuevo, actualizar también LAST_UPDATE.contenido. Usar LAST_UPDATE.parcial para listar lo que no se pudo revisar (o quitarlo si se revisó todo). Subir config.js completo.",
   "clases": {
     "ODg1MTAwNzkzOTUy": {
       "nombre": "3ESO Matemáticas", "id_web": "mat", "archivo": "mat.js",
