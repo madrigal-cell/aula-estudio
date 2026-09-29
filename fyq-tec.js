@@ -88,54 +88,51 @@ Y como en Matemáticas: **error absoluto** = |real − medido|; **error relativo
   {t:'quiz', q:'¿Cuántas cifras significativas tiene 0,000150?', opts:['2','3','6'], a:1, why:'Los ceros de la izquierda no cuentan. 1, 5 y el 0 final sí: 3 cifras.'}
  ]}
  ],
- task:{id:'ftask', title:'Deberes: ejercicios 7 a 12 de la ficha', due:'Para la próxima clase', instr:'Ejercicios 7 y 8 (magnitudes), 9 y 10 (repaso de ciencia y observación), 11 y 12 (prefijos y unidades).', steps:[
-  {t:'read', h:'Ejercicio 7: ¿magnitud o no?', body:`Pregúntate: ¿se puede medir con un número y una unidad?
+ task:{id:'ftask2', title:'Deberes: ejercicios 13, 14 y 15 de la ficha', due:'Para la próxima clase (anuncio del 29 de septiembre)', instr:'Cambios de unidades con factores de conversión (13 y 14) y notación científica (15).', steps:[
+  {t:'read', h:'Qué te piden', body:`Tres ejercicios de la ficha de la UD1 (página 2):
 
-- a) El volumen que ocupa → **sí** (litros, m³)
-- b) El color → **no**
-- c) El sabor → **no**
-- d) La temperatura → **sí** (K, °C)
-- e) La fuerza para arrastrarla → **sí** (newtons)
-- f) El precio en euros → **no** es una magnitud física (no es una propiedad de la materia)`},
-  {t:'read', h:'Ejercicio 8: características de una persona', body:`- a) La altura → **sí** (metros)
-- b) La simpatía → **no**
-- c) La masa → **sí** (kg)
-- d) La belleza → **no**
-- e) La velocidad → **sí** (m/s)
-- f) La habilidad → **no**`},
-  {t:'read', h:'Ejercicio 9: ¿Física o Química?', body:`¿Aparece una sustancia nueva? No → Física. Sí → Química.
+- **13**: pasar una densidad de g/mL a kg/m³.
+- **14**: pasar una velocidad de m/s a km/h.
+- **15**: escribir cuatro cantidades en notación científica.
 
-- a) Vagón en una montaña rusa → **Física** (movimiento)
-- b) El eco en un concierto → **Física** (sonido)
-- c) Deshielo de una pista → **Física** (sigue siendo agua)
-- d) Encender una chimenea → **Química** (la madera arde y cambia)
-- e) Fuegos artificiales → **Química**
-- f) Freír un huevo → **Química** (el huevo cambia y no vuelve atrás)
-- g) Medir la velocidad de un F1 → **Física**
-- h) Calentar agua → **Física** (sigue siendo agua)`},
-  {t:'read', h:'Ejercicio 10: observación cuantitativa', body:`**Cuantitativa** = con números. **Cualitativa** = con palabras.
+Se hacen en el **cuaderno**. Aquí están resueltos paso a paso para que **compruebes**, no para copiar.
 
-De la vela encendida, la única observación científica **cuantitativa** es:
+[[ok:Intenta cada uno tú primero. Luego destapa los pasos y compara.]]`},
+  {t:'read', h:'Recuerda: el factor de conversión', body:`Un factor de conversión es una **fracción que vale 1**. Arriba y abajo hay lo mismo, en unidades distintas.
 
-**e) Se consume 1 cm cada 3 min.**
+${fr('1 kg','1000 g')} vale 1, porque 1 kg y 1000 g son lo mismo.
 
-Las demás: a) forma cilíndrica (cualitativa), b) cuesta 1 € (tiene número pero no es científica), c) arde por combustión (cualitativa), d) parafina (cualitativa), f) poca luz (cualitativa).`},
-  {t:'read', h:'Ejercicio 11: símbolo y equivalencia', body:`Modelo: 1 dag = 10 g.
+[[warn:La unidad que quieres quitar va en el lado contrario. Si está arriba, en el factor la pones abajo. Así se tacha.]]`},
+  {t:'example', h:'Ejercicio 13: el agua del mar', intro:'La densidad del agua del mar es 1,13 g/mL. Exprésala en kg/m³.', steps:[
+    {why:'Hay que cambiar **dos** unidades: gramos (arriba) a kg, y mL (abajo) a m³. Escribo las equivalencias.', html:'1 kg = 1000 g &nbsp;·&nbsp; 1 m³ = 1.000.000 mL'},
+    {why:'Los gramos están arriba: en el factor van abajo. Los mL están abajo: en el factor van arriba.', html:'<div class="math">'+fr('1,13 g','1 mL')+'<span class="op">·</span>'+fr('1 kg','1000 g')+'<span class="op">·</span>'+fr('1.000.000 mL','1 m³')+'</div>'},
+    {why:'Tacho g con g y mL con mL. Quedan kg arriba y m³ abajo: justo lo que piden.', html:'1,13 · 1.000.000 : 1000'},
+    {why:'Multiplicar por un millón y dividir entre mil es lo mismo que multiplicar por 1000.', html:'1,13 · 1000 = <strong>1130 kg/m³</strong>'}]},
+  {t:'quiz', q:'¿Por qué 1 m³ son 1.000.000 mL?', opts:['Porque 1 m³ son 1000 L, y cada litro son 1000 mL','Porque un metro son 100 centímetros','Porque "mili" significa un millón'], a:0, why:'1 m³ = 1000 L. Cada litro son 1000 mL. 1000 · 1000 = 1.000.000 mL. ("Mili" es la milésima parte, no un millón.)'},
+  {t:'example', h:'Ejercicio 14: el balón de fútbol', intro:'En una falta, el balón alcanza 34 m/s. Expresa esta velocidad en km/h.', steps:[
+    {why:'Cambio metros (arriba) a km, y segundos (abajo) a horas.', html:'1 km = 1000 m &nbsp;·&nbsp; 1 h = 3600 s'},
+    {why:'Los m están arriba: en el factor van abajo. Los s están abajo: en el factor van arriba.', html:'<div class="math">'+fr('34 m','1 s')+'<span class="op">·</span>'+fr('1 km','1000 m')+'<span class="op">·</span>'+fr('3600 s','1 h')+'</div>'},
+    {why:'Tacho m con m y s con s. Multiplico lo de arriba y divido entre lo de abajo.', html:'34 · 3600 : 1000 = 122.400 : 1000'},
+    {why:'Dividir entre 1000 es mover la coma 3 sitios a la izquierda.', html:'<strong>122,4 km/h</strong>'}]},
+  {t:'read', h:'¿Tiene sentido?', body:`122 km/h es lo que va un coche por la autovía. Para un balonazo muy fuerte, **tiene sentido**.
 
-- a) Miligramo → **mg** → 1 mg = 10⁻³ g = 0,001 g
-- b) Terámetro → **Tm** → 1 Tm = 10¹² m
-- c) Kilolitro → **kL** → 1 kL = 10³ L = 1000 L
-- d) Nanosegundo → **ns** → 1 ns = 10⁻⁹ s
-- e) Gigajulio → **GJ** → 1 GJ = 10⁹ J
-- f) Micronewton → **µN** → 1 µN = 10⁻⁶ N`},
-  {t:'read', h:'Ejercicio 12: con todas las letras', body:`Modelo: 1 µm es un micrómetro y equivale a 10⁻⁶ m.
+[[ok:Atajo: de m/s a km/h se multiplica por **3,6**. 34 · 3,6 = 122,4. Úsalo para comprobar, pero en el cuaderno escribe los factores.]]
 
-- a) **hL**: un hectolitro, equivale a 10² L = 100 L
-- b) **Mg**: un megagramo, equivale a 10⁶ g (= 1000 kg)
-- c) **cL**: un centilitro, equivale a 10⁻² L = 0,01 L
-- d) **mg**: un miligramo, equivale a 10⁻³ g = 0,001 g
+${say('Dilo en voz alta: de metros por segundo a kilómetros por hora, por tres coma seis.')}`},
+  {t:'read', h:'Ejercicio 15: notación científica', body:`Regla: **una sola cifra** antes de la coma (del 1 al 9), **× 10 elevado a** los sitios que se mueve la coma.
 
-[[ok:Antes de copiar, tapa las respuestas e intenta cada apartado tú. Luego compara.]]`}
+- Número **grande** → exponente **positivo**.
+- Número **pequeño** (menor que 1) → exponente **negativo**.`},
+  {t:'example', h:'Ejercicio 15 a) y b)', intro:'a) 300000 km/s &nbsp;·&nbsp; b) 0,004523 kg', steps:[
+    {why:'a) Pongo la coma detrás del 3. Se ha movido **5 sitios a la izquierda**. Número grande → positivo.', html:'300000 = <strong>3 × 10⁵ km/s</strong>'},
+    {why:'b) Pongo la coma detrás del 4, la primera cifra que no es cero. Se ha movido **3 sitios a la derecha**. Número pequeño → negativo.', html:'0,004523 = <strong>4,523 × 10⁻³ kg</strong>'}]},
+  {t:'example', h:'Ahora tú: 15 c) y d)', intro:'c) 9798,75 cm &nbsp;·&nbsp; d) 0,00000000076 km. Hazlo en el cuaderno y luego destapa.', steps:[
+    {why:'c) Coma detrás del primer 9. Se mueve **3 sitios a la izquierda**. Número grande → positivo.', html:'9798,75 = <strong>9,79875 × 10³ cm</strong>'},
+    {why:'d) Coma detrás del 7. Cuenta los saltos con el dedo: son **10 a la derecha**. Número pequeño → negativo.', html:'0,00000000076 = <strong>7,6 × 10⁻¹⁰ km</strong>'}]},
+  {t:'quiz', q:'Uno más para practicar: 0,00052 en notación científica es…', opts:['5,2 × 10⁴','5,2 × 10⁻⁴','52 × 10⁻⁵'], a:1, why:'La coma salta 4 sitios a la derecha y el número es pequeño → 10⁻⁴. (52 × 10⁻⁵ vale lo mismo, pero tiene dos cifras antes de la coma.)'},
+  {t:'read', h:'Antes de darla por hecha', body:`<div class="levels"><div class="level"><b>1</b><span>En el 13 y el 14 he escrito los **factores de conversión**, no solo el resultado.</span></div><div class="level"><b>2</b><span>He tachado las unidades que se van.</span></div><div class="level"><b>3</b><span>Cada resultado lleva su unidad: kg/m³ y km/h.</span></div><div class="level"><b>4</b><span>En el 15 hay **una sola cifra** antes de la coma.</span></div><div class="level"><b>5</b><span>En los números pequeños (b y d) el exponente es **negativo**.</span></div></div>
+
+Cuando lo tengas en el cuaderno, márcala en la portada con **✔ Hecha en cuaderno**.`}
  ]}
 };
 
