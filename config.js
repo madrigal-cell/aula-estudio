@@ -9,8 +9,7 @@ window.SUBJECT_ORDER = ['mat','geo','bio','fyq','tec'];
 // La rutina diaria DEBE actualizar 'revision' en cada ejecución y 'contenido' solo si publica algo. Formato ISO con zona (+02:00 verano, +01:00 invierno).
 window.LAST_UPDATE = {
   contenido: '2026-09-29T17:30:00+02:00',
-  revision:  '2026-09-29T17:30:00+02:00',
-  parcial:   'Tecnología y Portal pendientes de revisar'
+  revision:  '2026-09-30T15:30:00+02:00'
 };
 (function(){
   function fmt(iso,conHora){
