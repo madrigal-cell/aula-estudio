@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-30",
+  "actualizado": "2026-10-01",
   "recordatorio_rutina": "En CADA ejecución (aunque no haya novedades): subir config.js con window.LAST_UPDATE.revision = hora actual de Madrid (ISO con +02:00 en verano / +01:00 en invierno). Si se publica contenido nuevo, actualizar también LAST_UPDATE.contenido. Usar LAST_UPDATE.parcial para listar lo que no se pudo revisar (o quitarlo si se revisó todo). Subir config.js completo.",
   "clases": {
     "ODg1MTAwNzkzOTUy": {
@@ -10,14 +10,16 @@
         {"titulo": "260924-Operaciones con fracciones", "entrega": "2026-09-27 23:59", "id_web": "mtask"},
         {"titulo": "260930-Operaciones con fracciones (publicada 30 sept 14:16): 'Terminar la ficha de ejercicios entregada en clase' (ficha en papel, sin adjuntos en Classroom)", "entrega": "2026-10-04", "id_web": null, "nota": "Sin material digital: no se ha creado tarea guiada. Las lecciones m1-m8 y mtask cubren operaciones con fracciones. Si la ficha se sube a Classroom, guiarla."}
       ],
-      "lecciones": ["m1","m2","m3","m4","m5","m6","m7","m8"]
+      "lecciones": ["m1","m2","m3","m4","m5","m6","m7","m8"],
+      "nota": "1 oct: revisado, sin novedades."
     },
     "ODc4MDM0NTM0OTIz": {
       "nombre": "Geografía 3º A", "id_web": "geo", "archivo": "geo-bio.js",
       "temas": ["La Geografía y el trabajo del geógrafo"],
       "materiales": ["Tema 1. La geografía y el trabajo del geógrafo (13 sept)", "Enlaces para practicar el mapa político de España (22 sept)"],
       "tareas": [{"titulo": "Actividad 1. Tema 1 (fotografías aéreas)", "entrega": "sin fecha", "id_web": "gtask"}],
-      "lecciones": ["g1","g2","g3","g4","g5","g6","g7"]
+      "lecciones": ["g1","g2","g3","g4","g5","g6","g7"],
+      "nota": "1 oct: revisado, sin novedades."
     },
     "ODc3MzE5ODcyNDI5": {
       "nombre": "3ºESO A. 26/27 (Física y Química)", "id_web": "fyq", "archivo": "fyq-tec.js",
@@ -25,8 +27,8 @@
       "materiales": ["INF. BASICA UD1 (17 sept)", "EJERC.UD1 (17 sept, ejercicios 1-22)", "Cuadro SI (22 sept)", "Site FyQ (16 sept)"],
       "tareas": [{"titulo": "Ejercicios 13, 14 y 15 de la ficha (factores de conversión y notación científica, anuncio 29 sept)", "entrega": "próxima clase", "id_web": "ftask2"}],
       "tareas_anteriores": [{"titulo": "Ejercicios 7-12 de la ficha (anuncios 23 y 25 sept)", "id_web": "ftask", "estado": "marcada como entregada en clase el 29 sept"}],
-      "anuncios_procesados": ["16/09/26", "17/09/26", "22/09/26", "23/09/26", "25/09/26", "29/09/26"],
-      "nota": "La ficha EJERC.UD1 (Drive 1MZPD4RyOZHDItOpeiLhebEN0bOTC0MxQ, authuser=3) tiene los ejercicios 1-22. Los siguientes deberes probablemente serán del 16 en adelante (instrumentos, precisión, cifras significativas, densidad, errores, gráfica).",
+      "anuncios_procesados": ["16/09/26", "17/09/26", "22/09/26", "23/09/26", "25/09/26", "29/09/26", "30/09/26 (repaso unidades y notación científica, corrección hasta ejercicio 15; ejercicio 1 'Ciencia y falsa ciencia' discutido en clase; sin deberes nuevos)"],
+      "nota": "La ficha EJERC.UD1 (Drive 1MZPD4RyOZHDItOpeiLhebEN0bOTC0MxQ, authuser=3) tiene los ejercicios 1-22. Los siguientes deberes probablemente serán del 16 en adelante (instrumentos, precisión, cifras significativas, densidad, errores, gráfica). 1 oct: sin anuncios nuevos desde el 30/09.",
       "lecciones": ["f1","f2","f3","f4","f5"]
     },
     "ODI2NDE4MjY0Mjk3": {
@@ -35,20 +37,21 @@
       "materiales": ["PRESENTACIÓN UNIDAD 1. EL SER HUMANO (23 sept)", "Padlet ByG 3º ESO (15 sept, tablón)", "Site ByG 3º ESO (15 sept, tablón)", "Vídeos Introducción a la Biología (16 sept, tablón)"],
       "tareas": [{"titulo": "23.09.26: ORGANIZACIÓN DEL SER HUMANO (esquema)", "entrega": "próxima clase", "id_web": "btask"}],
       "aviso": "30 sept: las publicaciones vuelven a verse normales en el tablón (sin 'Eliminado'). Sin material nuevo. Las lecciones b1-b8 y btask se conservan.",
-      "lecciones": ["b1","b2","b3","b4","b5","b6","b7","b8"]
+      "lecciones": ["b1","b2","b3","b4","b5","b6","b7","b8"],
+      "nota": "1 oct: revisado, sin novedades."
     },
     "ODg0ODgwNjUzMjM3": {
       "nombre": "TECNOLOGÍA 26/27", "id_web": "tec", "archivo": "fyq-tec.js",
       "temas": [],
       "materiales": ["Site tecnología (21 sept)"],
       "anuncios_procesados": ["21 sept preguntas de la semana (central termoeléctrica)", "25 sept documentales cambio climático"],
-      "nota": "30 sept: tablón revisado, sin novedades.",
+      "nota": "1 oct: tablón revisado, sin novedades.",
       "lecciones": ["t1","t2"]
     },
     "ODg0ODc0MDgwOTQ5": {
       "nombre": "Portal 3º de ESO (tutoría)", "id_web": null,
       "materiales": ["Normas de convivencia (14 sept)", "Horarios de tutoría (14 sept)"],
-      "nota": "30 sept: revisado, sin novedades."
+      "nota": "30 sept: revisado, sin novedades. 1 oct: no cargó (Classroom muy lento), pendiente de revisar."
     }
   }
 }
