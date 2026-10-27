@@ -1,16 +1,16 @@
 // URL de la aplicación web de Apps Script (hoja de progreso)
 window.SYNC_URL = 'https://script.google.com/macros/s/AKfycbyd5ym9vncQcTj9oROmdxKHVguosX1EIGso-YMFNZxZZKo3KQdIpiPFp1SYDKnhsSh_9A/exec';
 // Orden de las asignaturas en la portada (ids de SUBJECTS)
-window.SUBJECT_ORDER = ['mat','geo','bio','fyq','tec'];
+window.SUBJECT_ORDER = ['mat','geo','bio','fyq','tec','ate','ing'];
 
 // ---- Indicador de actualización (se muestra en la portada) ----
 // contenido: última vez que se cambió contenido de la web (lecciones/tareas).
 // revision:  última vez que se revisó Classroom (aunque no hubiera cambios).
 // La rutina diaria DEBE actualizar 'revision' en cada ejecución y 'contenido' solo si publica algo. Formato ISO con zona (+02:00 verano, +01:00 invierno).
 window.LAST_UPDATE = {
-  contenido: '2026-10-27T08:50:00+01:00',
-  revision:  '2026-10-27T08:50:00+01:00',
-  parcial: 'Hoy solo se ha revisado Tecnología (examen el viernes). Pendientes de revisar: Geografía, Biología, Portal y las clases nuevas'
+  contenido: '2026-10-27T15:12:00+01:00',
+  revision:  '2026-10-27T15:12:00+01:00',
+  parcial: ''
 };
 (function(){
   function fmt(iso,conHora){
