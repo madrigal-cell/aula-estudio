@@ -1,12 +1,14 @@
 {
-  "actualizado": "2026-10-18",
+  "actualizado": "2026-10-27",
   "recordatorio_rutina": "En CADA ejecución (aunque no haya novedades): subir config.js con window.LAST_UPDATE.revision = hora actual de Madrid (ISO con +02:00 en verano / +01:00 en invierno). Si se publica contenido nuevo, actualizar también LAST_UPDATE.contenido. Usar LAST_UPDATE.parcial para listar lo que no se pudo revisar (o quitarlo si se revisó todo). Subir config.js completo.",
   "excluidas": {
     "nota": "Matemáticas, Lengua y Física y Química: excluidas. Ya no se publican tareas en Classroom (decisión de Madri, 15/10/2026). El 18/10/2026 Madri pidió retirarlas de la web y no actualizarlas más: mat.js está vacío (stub) y fyq-tec.js solo contiene Tecnología. No se revisan en Classroom, no se crean lecciones para ellas y no se mencionan en resúmenes. Clases ignoradas: ODg1MTAwNzkzOTUy (Matemáticas), ODc3MzE5ODcyNDI5 (3ºESO A. 26/27 = Física y Química) y cualquier clase de Lengua."
   },
   "clases": {
     "ODc4MDM0NTM0OTIz": {
-      "nombre": "Geografía 3º A", "id_web": "geo", "archivo": "geo-bio.js",
+      "nombre": "Geografía 3º A",
+      "id_web": "geo",
+      "archivo": "geo-bio.js",
       "temas": ["La Geografía y el trabajo del geógrafo"],
       "materiales": ["Tema 1. La geografía y el trabajo del geógrafo (13 sept)", "Enlaces para practicar el mapa político de España (22 sept)"],
       "tareas": [{"titulo": "Actividad 1. Tema 1 (fotografías aéreas)", "entrega": "sin fecha", "id_web": "gtask"}],
@@ -14,7 +16,9 @@
       "nota": "1 oct: revisado, sin novedades."
     },
     "ODI2NDE4MjY0Mjk3": {
-      "nombre": "ByG 3ºESO A", "id_web": "bio", "archivo": "geo-bio.js",
+      "nombre": "ByG 3ºESO A",
+      "id_web": "bio",
+      "archivo": "geo-bio.js",
       "temas": ["01. EL SER HUMANO"],
       "materiales": ["PRESENTACIÓN UNIDAD 1. EL SER HUMANO (23 sept)", "Padlet ByG 3º ESO (15 sept, tablón)", "Site ByG 3º ESO (15 sept, tablón)", "Vídeos Introducción a la Biología (16 sept, tablón)"],
       "tareas": [{"titulo": "23.09.26: ORGANIZACIÓN DEL SER HUMANO (esquema)", "entrega": "próxima clase", "id_web": "btask"}],
@@ -23,17 +27,29 @@
       "nota": "1 oct: revisado, sin novedades."
     },
     "ODg0ODgwNjUzMjM3": {
-      "nombre": "TECNOLOGÍA 26/27", "id_web": "tec", "archivo": "fyq-tec.js",
-      "temas": [],
-      "materiales": ["Site tecnología (21 sept)"],
-      "anuncios_procesados": ["21 sept preguntas de la semana (central termoeléctrica)", "25 sept documentales cambio climático"],
-      "nota": "1 oct: tablón revisado, sin novedades. El archivo fyq-tec.js conserva solo Tecnología (nombre heredado).",
-      "lecciones": ["t1","t2"]
+      "nombre": "TECNOLOGÍA 26/27",
+      "id_web": "tec",
+      "archivo": "fyq-tec.js + tec2.js",
+      "temas": ["Electricidad y calentamiento global (1er trimestre)"],
+      "materiales": ["Site tecnología (21 sept): Energía eléctrica, El motor eléctrico, Centrales térmicas, Calentamiento global, Croquis vivienda (2º trim.: Consumo y energía, sin leer)"],
+      "anuncios_procesados": ["21 sept preguntas de la semana (central termoeléctrica)", "25 sept documentales cambio climático", "5 oct 200 palabras sin IA (calentamiento global)", "14 oct cinco medidas contra el cambio climático"],
+      "tareas": [{"titulo": "Calentamiento global: 200 palabras (5 oct) y cinco medidas (14 oct)", "entrega": "sin fecha en Classroom", "id_web": "ttask"}],
+      "lecciones": ["t1","t2","t3","t4","t5","t6","t7","t8","t9","t10","tx1","tx2"],
+      "nota": "27 oct: examen de Tecnología el viernes 30 oct. Lecciones t3-t10 y exámenes tx1, tx2 creados desde el Site (tec2.js). Trabajo de clase vacío. Pendiente: leer imágenes/vídeos incrustados del Site y 2º trimestre si entra en examen."
     },
     "ODg0ODc0MDgwOTQ5": {
-      "nombre": "Portal 3º de ESO (tutoría)", "id_web": null,
+      "nombre": "Portal 3º de ESO (tutoría)",
+      "id_web": null,
       "materiales": ["Normas de convivencia (14 sept)", "Horarios de tutoría (14 sept)"],
       "nota": "30 sept: revisado, sin novedades. 1 oct: no cargó (Classroom muy lento), pendiente de revisar."
+    }
+  },
+  "pendientes_revisar_nuevas": {
+    "nota": "Clases nuevas vistas el 27 oct en la cuenta de la alumna, aún sin revisar. Lengua, Matemáticas y FyQ siguen excluidas.",
+    "clases": {
+      "MzM2MzkyMzgzNjFa": "Plástica 3º de ESO",
+      "ODg5MDcwNDQ1NTUw": "3A. ENGLISH English Language & Culture",
+      "ODg0ODg1Mjc3NzU4": "3º ESO A ATEDU (26/27)"
     }
   }
 }
