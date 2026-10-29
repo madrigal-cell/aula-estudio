@@ -94,6 +94,77 @@ I.task={id:'itask2', title:'Unit 2 · Vocab 1 (Skills and abilities), en el cuad
   {t:'read', h:'Antes de terminar', body:`<div class="levels"><div class="level"><b>✔</b><span>Has hecho los ejercicios **1, 2 y 5** en el cuaderno.</span></div><div class="level"><b>✔</b><span>Sabes los **12 verbos** y su participio (lección i3).</span></div><div class="level"><b>✔</b><span>Los dos regulares son **designed** y **climbed**.</span></div><div class="level"><b>✔</b><span>Pregunta en clase para cuándo es el writing del abuelo/a.</span></div></div>`}
 ]};
 
+/* ---------- INGLÉS · Unit 2 · Present perfect (29 oct) ---------- */
+I.tema='Unit 2 · Vocabulario (Skills and abilities) y Present Perfect';
+I.lessons.push(
+ {id:'i4', title:'Present perfect: frases afirmativas', mins:10, steps:[
+  {t:'recall', h:'Repaso de 1 minuto', qs:[['¿Cuál es el participio de "write"?','written'],['¿Cuáles son los dos verbos regulares de la lista?','designed y climbed']]},
+  {t:'read', h:'Para qué sirve', body:`El **present perfect** cuenta algo que **ya ha pasado** y que **importa ahora**.
+
+"I have lost my keys." = Perdí las llaves (y ahora no las tengo).
+
+[[idea:Fórmula: **have / has + participio**.]]`},
+  {t:'read', h:'Have o has', body:`<div class="tblwrap"><table class="tbl"><tr><th>Quién</th><th>Auxiliar</th><th>Corto</th></tr><tr><td>I, you, we, they</td><td>**have**</td><td>I've, we've</td></tr><tr><td>he, she, it, John, Lucy</td><td>**has**</td><td>she's, John's</td></tr></table></div>
+
+[[ok:Truco: he, she, it → has. Los demás → have.]]
+
+${say('Dilo en voz alta: I have studied. She has eaten.')}`},
+  {t:'quiz', q:'¿Qué auxiliar va con "She"?', opts:['has','have'], a:0, why:'She es he/she/it, así que lleva has.'},
+  {t:'read', h:'Participios regulares (-ed)', body:`<div class="tblwrap"><table class="tbl"><tr><th>Verbo</th><th>Participio</th></tr><tr><td>study</td><td>**studied**</td></tr><tr><td>try</td><td>**tried**</td></tr><tr><td>live</td><td>**lived**</td></tr><tr><td>stay</td><td>**stayed**</td></tr><tr><td>miss</td><td>**missed**</td></tr><tr><td>cook</td><td>**cooked**</td></tr><tr><td>pass</td><td>**passed**</td></tr></table></div>
+
+[[warn:Cuidado: study y try cambian la "y" por "ied".]]`},
+  {t:'read', h:'Participios irregulares', body:`<div class="tblwrap"><table class="tbl"><tr><th>Verbo</th><th>Participio</th></tr><tr><td>eat</td><td>**eaten**</td></tr><tr><td>have</td><td>**had**</td></tr><tr><td>read</td><td>**read** (se escribe igual, se dice "red")</td></tr><tr><td>know</td><td>**known**</td></tr><tr><td>lose</td><td>**lost**</td></tr><tr><td>drink</td><td>**drunk**</td></tr><tr><td>go</td><td>**gone**</td></tr><tr><td>write</td><td>**written**</td></tr><tr><td>find</td><td>**found**</td></tr><tr><td>meet</td><td>**met**</td></tr></table></div>`},
+  {t:'quiz', q:'¿Cuál es el participio de "eat"?', opts:['eaten','eated'], a:0, why:'Eat es irregular: eat → eaten.'},
+  {t:'input', q:'Escribe el participio de "drink".', a:['drunk'], hint:'Empieza por "dr" y termina en "-unk".', why:'Drink → drunk.'},
+  {t:'read', h:'La palabra "for"', body:`"**for** three years" = **durante** tres años.
+
+"He has lived here **for** three years." = Vive aquí desde hace tres años.
+
+[[idea:Con "for" el present perfect habla de algo que empezó antes y sigue ahora.]]`},
+  {t:'example', h:'Ejemplo: She / eat / octopus', intro:'Mira cómo se construye una frase, paso a paso.', steps:[
+   {why:'Elige el auxiliar. She → has.', html:`She **has**`},
+   {why:'Pon el verbo en participio. eat → eaten.', html:`She has **eaten**`},
+   {why:'Añade el resto.', html:`She has eaten octopus. (corto: She's eaten octopus)`}
+  ]},
+  {t:'example', h:'Ahora tú: He / drink / too much coffee', intro:'Hazlo en el cuaderno y luego destapa.', steps:[
+   {why:'He → has.', html:`He **has**`},
+   {why:'drink → drunk.', html:`He has **drunk**`},
+   {why:'Frase completa.', html:`He has drunk too much coffee.`}
+  ]},
+  {t:'input', q:'Completa con have o has: "We ______ read that book."', a:['have'], hint:'We es un sujeto de los que llevan "have".', why:'We → have: We have read that book.'}
+ ]}
+);
+I.task.title='Unit 2 · Present perfect (20 frases) + Vocab 1, en el cuaderno + writing del abuelo';
+I.task.instr='Haz en el cuaderno las 20 frases afirmativas de "Present Perfect (Positive) Exercise" (publicadas el 29 oct). Sigue pendiente Vocab 1 (ejercicios 1, 2 y 5) y el writing sobre tu abuelo/a.';
+I.task.steps[0]={t:'read', h:'Qué se pide', body:`Hay **tres cosas** en el cuaderno. Ninguna tiene fecha en Classroom.
+
+<div class="levels"><div class="level"><b>1</b><span>**Nuevo (29 oct)**: las **20 frases** de la ficha "Present Perfect (Positive)". Escríbelas con **have / has + participio**.</span></div><div class="level"><b>2</b><span>**Vocab 1**: ejercicios 1, 2 y 5 de "Skills and abilities".</span></div><div class="level"><b>3</b><span>**Writing** sobre tu abuelo/a.</span></div></div>
+
+[[ok:Antes de empezar, haz la lección i4.]]`};
+I.task.steps.splice(1,0,
+ {t:'example', h:'Present perfect, frases 1 a 5 (para comprobar)', intro:'Haz las frases en el cuaderno y luego destapa para comprobar.', steps:[
+  {why:'1 (I / study / French) y 2 (She / eat / octopus).', html:`1 I've / I have **studied** French. · 2 She's / She has **eaten** octopus.`},
+  {why:'3 (They / have / a nice time) y 4 (We / read / that book).', html:`3 They've / They have **had** a nice time. · 4 We've / We have **read** that book.`},
+  {why:'5 (He / live / here for three years).', html:`5 He's / He has **lived** here for three years.`}
+ ]},
+ {t:'example', h:'Frases 6 a 10 (para comprobar)', intro:'Hazlas en el cuaderno y luego destapa.', steps:[
+  {why:'6 y 7.', html:`6 You've / You have **known** David for ten years. · 7 We've / We have **stayed** here for two weeks.`},
+  {why:'8 y 9.', html:`8 I've / I have **lost** my keys. · 9 He's / He has **drunk** too much coffee.`},
+  {why:'10.', html:`10 They've / They have **missed** the train.`}
+ ]},
+ {t:'example', h:'Frases 11 a 15 (para comprobar)', intro:'Hazlas en el cuaderno y luego destapa.', steps:[
+  {why:'11 y 12.', html:`11 She's / She has **gone** to Peru. · 12 We've / We have **eaten** too much chocolate.`},
+  {why:'13 y 14.', html:`13 I've / I have **had** breakfast this morning. · 14 John's / John has **missed** the train.`},
+  {why:'15.', html:`15 Lucy's / Lucy has **cooked** breakfast.`}
+ ]},
+ {t:'example', h:'Frases 16 a 20 (para comprobar)', intro:'Hazlas en el cuaderno y luego destapa.', steps:[
+  {why:'16 y 17.', html:`16 They've / They have **written** to the politician. · 17 You've / You have **found** your wallet.`},
+  {why:'18 y 19.', html:`18 I've / I have **met** his mother. · 19 We've / We have **tried** roller-skating.`},
+  {why:'20.', html:`20 She's / She has **passed** the exam.`}
+ ]}
+);
+I.task.steps[I.task.steps.length-1]={t:'read', h:'Antes de terminar', body:`<div class="levels"><div class="level"><b>✔</b><span>Las **20 frases** del present perfect están en el cuaderno.</span></div><div class="level"><b>✔</b><span>Cada frase lleva **have / has + participio**.</span></div><div class="level"><b>✔</b><span>Has hecho los ejercicios **1, 2 y 5** de Vocab 1.</span></div><div class="level"><b>✔</b><span>Sabes los **12 verbos** y su participio (lección i3).</span></div><div class="level"><b>✔</b><span>Pregunta en clase para cuándo es el writing del abuelo/a.</span></div></div>`};
+
 /* ---------- BIOLOGÍA · Nivel tisular: los tejidos ---------- */
 B.tema='01. El ser humano · Células y tejidos';
 B.lessons.push(
