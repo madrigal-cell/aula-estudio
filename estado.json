@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-10-29",
-  "recordatorio_rutina": "En CADA ejecución (aunque no haya novedades): subir config.js con window.LAST_UPDATE.revision = hora actual de Madrid (ISO con +02:00 en verano / +01:00 en invierno). Si se publica contenido nuevo, actualizar también LAST_UPDATE.contenido. Usar LAST_UPDATE.parcial para listar lo que no se pudo revisar (o quitarlo si se revisó todo). Subir config.js completo.",
+  "actualizado": "2026-11-02",
+  "recordatorio_rutina": "En CADA ejecución (aunque no haya novedades): subir config.js con window.LAST_UPDATE.revision = hora actual de Madrid (ISO con +02:00 en verano / +01:00 en invierno). Si se publica contenido nuevo, actualizar también LAST_UPDATE.contenido. Usar LAST_UPDATE.parcial para listar lo que no se pudo revisar (o quitarlo si se revisó todo). Subir config.js completo. Desde el 2 nov hay un archivo nov2.js (cargado en index.html después de ing.js) que amplía SUBJECTS.ing y SUBJECTS.bio: las lecciones i5, i6, b15 y las tareas itask2 (ampliada) y btask3 están ahí.",
   "excluidas": {
     "nota": "Matemáticas, Lengua y Física y Química: excluidas. Ya no se publican tareas en Classroom (decisión de Madri, 15/10/2026). El 18/10/2026 Madri pidió retirarlas de la web y no actualizarlas más: mat.js está vacío (stub) y fyq-tec.js solo contiene Tecnología. No se revisan en Classroom, no se crean lecciones para ellas y no se mencionan en resúmenes. Clases ignoradas: ODg1MTAwNzkzOTUy (Matemáticas), ODc3MzE5ODcyNDI5 (3ºESO A. 26/27 = Física y Química) y cualquier clase de Lengua."
   },
@@ -50,14 +50,15 @@
         "g16",
         "g17"
       ],
-      "nota": "27 oct: creadas g8-g13 (UE) y g14-g17 (vocabulario relieve) en geo-bio2.js; tarea gtask2 sustituye a gtask. Aviso: la diapositiva dice 20 países con euro; Bulgaria entró en 2026 (21). Avisado en g12. 28 oct (15:00): tablón y trabajo de clase revisados, sin novedades. 29 oct (18:55): revisado, sin novedades."
+      "nota": "27 oct: creadas g8-g13 (UE) y g14-g17 (vocabulario relieve) en geo-bio2.js; tarea gtask2 sustituye a gtask. Aviso: la diapositiva dice 20 países con euro; Bulgaria entró en 2026 (21). Avisado en g12. 28 oct (15:00): tablón y trabajo de clase revisados, sin novedades. 29 oct (18:55): revisado, sin novedades. 2 nov (15:00): revisado, sin novedades."
     },
     "ODI2NDE4MjY0Mjk3": {
       "nombre": "ByG 3ºESO A",
       "id_web": "bio",
-      "archivo": "geo-bio.js + geo-bio2.js + ing.js (b13, b14 al final de ing.js)",
+      "archivo": "geo-bio.js + geo-bio2.js + ing.js (b13, b14 al final de ing.js) + nov2.js (b15, btask3)",
       "temas": [
-        "01. EL SER HUMANO (células y tejidos)"
+        "01. EL SER HUMANO (células y tejidos)",
+        "02. EL SISTEMA INMUNOLÓGICO (empieza el 30 oct: la salud y los factores de riesgo)"
       ],
       "materiales": [
         "PRESENTACIÓN UNIDAD 1. EL SER HUMANO (23 sept)",
@@ -66,13 +67,19 @@
         "Vídeos Introducción a la Biología (16 sept, tablón)",
         "Presentación Unidad 1 modificada 14 oct (sin releer)",
         "Infografías: célula procariota (7 oct), animal (14 oct), vegetal (21 oct)",
-        "28 oct: BG3_01_NIVEL TISULAR.pdf (pp. 16-17 Edelvives: tejidos) y BG3_EF01 Los tejidos (actividades 1-3)"
+        "28 oct: BG3_01_NIVEL TISULAR.pdf (pp. 16-17 Edelvives: tejidos) y BG3_EF01 Los tejidos (actividades 1-3)",
+        "30 oct: BG3_02_ SISTEMA INMUNOLÓGICO_EDELVIVES.pdf (8 págs, imagen; leídas la 1 y parte de la 2: 1 La salud, 1.1 factores de riesgo, inicio de 1.2 estilo de vida saludable). Enlace ODS 3 (un.org)"
       ],
       "tareas": [
         {
+          "titulo": "30.10.26: LA SALUD Y LOS FACTORES DE RIESGO (documento: concepto de salud + cada factor de riesgo; con iPad, texto sobre metas 3.3-3.9 del ODS 3). Subir fotos o PDF a la tarea",
+          "entrega": "antes de la próxima clase de la semana que viene (sin fecha concreta)",
+          "id_web": "btask3 (incluye al final los pasos de btask2)"
+        },
+        {
           "titulo": "Célula vegetal: dibujo+ficha+comparativa (21 oct); Esquemas y mapas conceptuales de la unidad: subir fotos el día del examen (21 oct)",
           "entrega": "día del examen (fecha sin confirmar)",
-          "id_web": "btask2"
+          "id_web": "btask2 (ahora dentro de btask3)"
         }
       ],
       "tareas_vistas_sin_fecha": [
@@ -96,16 +103,18 @@
         "b11",
         "b12",
         "b13",
-        "b14"
+        "b14",
+        "b15"
       ],
-      "nota": "27 oct: creadas b9-b12. 28 oct: creadas b13 (tejidos conectivos) y b14 (epitelial, nervioso, muscular) a partir del PDF de Nivel tisular. btask2 se mantiene. Fecha del examen no consta en Classroom (el calendario de tutoría decía vie 23/10 para 3ºA). 29 oct (18:55): revisado, sin novedades."
+      "nota": "27 oct: creadas b9-b12. 28 oct: creadas b13 y b14. 2 nov (15:00): nuevo tema 02 El sistema inmunológico; tarea del 30 oct sin entregar. Creada b15 (salud y factores de riesgo) y btask3 con la solución guiada; btask2 se conserva al final de btask3. Pendiente de leer: resto del PDF (págs. 2-8: estilo de vida saludable, enfermedades, sistema inmunitario) cuando el profesor lo pida. Fecha del examen de la Unidad 1 sin confirmar."
     },
     "ODg0ODgwNjUzMjM3": {
       "nombre": "TECNOLOGÍA 26/27",
       "id_web": "tec",
       "archivo": "fyq-tec.js + tec2.js + tec3.js",
       "temas": [
-        "Electricidad y calentamiento global (1er trimestre)"
+        "Electricidad y calentamiento global (1er trimestre)",
+        "La cuestión energética (nuevo tema en Trabajo de clase, 30 oct)"
       ],
       "materiales": [
         "Site tecnología (21 sept): Energía eléctrica, El motor eléctrico, Centrales térmicas, Calentamiento global, Croquis vivienda (2º trim.: Consumo y energía, sin leer)",
@@ -124,6 +133,9 @@
           "entrega": "sin fecha en Classroom",
           "id_web": "ttask"
         }
+      ],
+      "tareas_vistas_sin_fecha": [
+        "30 oct: Examen 'La cuestión energética (I)' (formulario de Google, vencía 30 oct 14:50): figura ENTREGADO/Completada. Sin contenido de estudio."
       ],
       "lecciones": [
         "t1",
@@ -151,7 +163,7 @@
         "tv10",
         "tx3"
       ],
-      "nota": "27 oct: examen de Tecnología el viernes 30 oct. Lecciones t3-t10 y exámenes tx1, tx2 creados desde el Site (tec2.js). Trabajo de clase vacío. Pendiente: leer imágenes/vídeos incrustados del Site y 2º trimestre si entra en examen. 28 oct (15:00): tablón revisado, sin novedades. 29 oct (18:45): a petición de Madri, lecciones tv0-tv10 y examen tx3 con el contenido de los 12 vídeos (tec3.js). Classroom no revisado en esta actualización. 29 oct (18:55): Classroom revisado; nuevo aviso: examen de Tecnología mañana vie 30 oct en el aula 30. Trabajo de clase sigue vacío."
+      "nota": "27 oct: examen de Tecnología el viernes 30 oct. Lecciones t3-t10 y exámenes tx1, tx2 creados desde el Site (tec2.js). 29 oct: lecciones tv0-tv10 y examen tx3 (tec3.js). 2 nov (15:00): el examen del 30 oct ya está entregado; el tema en Trabajo de clase se llama 'LA CUESTIÓN ENERGÉTICA'. Sin material nuevo de estudio ni deberes nuevos."
     },
     "ODg0ODc0MDgwOTQ5": {
       "nombre": "Portal 3º de ESO (tutoría)",
@@ -160,7 +172,7 @@
         "Normas de convivencia (14 sept)",
         "Horarios de tutoría (14 sept)"
       ],
-      "nota": "28 oct: nuevo anuncio (8:52) con 'Bases del concurso medioambiental: Mural Por La Sostenibilidad' (PDF, sin leer; no es contenido de estudio). Antes (27 oct): material 'Broders' y tarea 'Talleres de Escritura' (invitación para apuntarse, 27 oct), 'Lectura divulgación científica' (26 oct), 'El hombre que plantaba árboles' (19 oct); calendarios de exámenes en tablón. 29 oct: sin novedades (sigue el anuncio del concurso de mural)."
+      "nota": "28 oct: anuncio 'Bases del concurso medioambiental: Mural Por La Sostenibilidad' (PDF, sin leer; no es contenido de estudio). Antes (27 oct): material 'Broders' y tarea 'Talleres de Escritura' (invitación para apuntarse), 'Lectura divulgación científica' (26 oct), 'El hombre que plantaba árboles' (19 oct); calendarios de exámenes en tablón. 29 oct y 2 nov: sin novedades."
     },
     "ODg0ODg1Mjc3NzU4": {
       "nombre": "3º ESO A ATEDU (26/27)",
@@ -180,7 +192,7 @@
         },
         {
           "titulo": "Presentación trabajo Marruecos",
-          "entrega": "lun 9 nov (se termina en clase)",
+          "entrega": "lun 9 nov, 9:15 (se termina en clase)",
           "id_web": "atask"
         }
       ],
@@ -193,21 +205,27 @@
         "a3",
         "a4"
       ],
-      "nota": "27 oct: asignatura creada (ate.js). 28 oct: sin novedades (la tarea vence mañana 29 oct 23:59). 29 oct (18:55): revisado, sin novedades. La tarea del trabajo Marruecos figura Completada (vencía el 29 oct)."
+      "nota": "27 oct: asignatura creada (ate.js). 29 oct: la tarea del trabajo Marruecos figura Completada. 2 nov (15:00): sin novedades; en la portada de Classroom aparece 'Presentación trabajo Marruecos' con fecha lun 9 nov 9:15."
     },
     "ODg5MDcwNDQ1NTUw": {
       "nombre": "3A. ENGLISH",
       "id_web": "ing",
-      "archivo": "ing.js",
+      "archivo": "ing.js + nov2.js (i5, i6 y ampliación de itask2)",
       "temas": [
         "Unit 1 writing",
         "Unit 2 vocab: Skills and abilities",
-        "Unit 2 Present perfect (positive)"
+        "Unit 2 Present perfect (positive)",
+        "Unit 2 Present perfect 2: just, yet, already; for, since, How long"
       ],
       "anuncios_procesados": [
         "23 oct: MODEL WRITING narrative essay (WRITING UNIT1.pdf); 5 oct: repasar vocabulario"
       ],
       "tareas": [
+        {
+          "titulo": "UNIT 2. PRESENT PERFECT 2 (30 oct): 'Do these activities in your notebook' (2 capturas del libro Macmillan: just/yet/already ej. 1-4 y for/since/How long ej. 1-5)",
+          "entrega": "sin fecha",
+          "id_web": "itask2"
+        },
         {
           "titulo": "UNIT2. PRESENT PERFECT 1. (29 oct 9:22): 20 frases afirmativas del PDF, en el cuaderno",
           "entrega": "sin fecha",
@@ -228,27 +246,30 @@
         "i1",
         "i2",
         "i3",
-        "i4"
+        "i4",
+        "i5",
+        "i6"
       ],
-      "nota": "27 oct: asignatura creada (ing.js). 28 oct: creada i3 (12 verbos y participios); itask2 sustituye a itask. Las capturas solo muestran los ejercicios 1, 2 y 5 (las imágenes estaban recortadas). 29 oct: creada i4 (present perfect afirmativo); itask2 ampliada con las 20 frases resueltas (en ing.js). itask2 recoge present perfect + vocab + writing.",
+      "nota": "27 oct: asignatura creada. 28 oct: i3. 29 oct: i4. 2 nov (15:00): creadas i5 (just/yet/already) e i6 (for/since/How long); itask2 ampliada con la solución guiada de las dos capturas del 30 oct (ejercicios leídos de imagen, algunas partes subrayadas poco legibles: la corrección es la lógica gramatical). itask2 recoge present perfect 2 + 1 + vocab + writing.",
       "materiales": [
+        "30 oct: UNIT 2. PRESENT PERFECT 2 (2 capturas macmillaneducation.com, sin fecha)",
         "29 oct 9:22: UNIT2. PRESENT PERFECT 1. (present_perfect_form_positive.pdf: 20 frases afirmativas, en el cuaderno, sin fecha)"
       ]
     },
     "MzM2MzkyMzgzNjFa": {
       "nombre": "Plástica 3º de ESO",
       "id_web": null,
-      "nota": "28 oct: sin novedades. Solo 22 oct: formulario de mejoras del colegio; el resto son publicaciones antiguas (2021-2025). Sin contenido de estudio. 29 oct (18:55): revisado, sin novedades."
+      "nota": "28 oct: sin novedades. Solo 22 oct: formulario de mejoras del colegio; el resto son publicaciones antiguas (2021-2025). Sin contenido de estudio. 2 nov: revisado, sin novedades."
     },
     "ODg0OTAxODUzNjU4": {
       "nombre": "C. FLAMENCO 3ºESO",
       "id_web": null,
-      "nota": "28 oct: sin novedades. Materiales de audio/práctica (Unidad 1 folclore, bulerías, Zorongo, Volando voy, Vals Shostakovich); tarea 'Palmeo por bulerías' sin instrucciones ni fecha. Sin lecciones creadas. 29 oct (18:55): revisado, sin novedades."
+      "nota": "Materiales de audio/práctica (Unidad 1 folclore, bulerías, Zorongo, Volando voy, Vals Shostakovich); tarea 'Palmeo por bulerías' sin instrucciones ni fecha. Sin lecciones creadas. 2 nov: revisado, sin novedades."
     },
     "ODc4MDQ5MzE2OTg4": {
       "nombre": "E.F. 3ºA",
       "id_web": null,
-      "nota": "Examen de baloncesto (formulario de Google) publicado el 27 oct. 28 oct: sin novedades. Sin lecciones. 29 oct (18:55): revisado, sin novedades."
+      "nota": "Examen de baloncesto (formulario de Google) publicado el 27 oct. Sin lecciones. 2 nov: revisado, sin novedades."
     }
   }
 }
