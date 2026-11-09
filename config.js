@@ -8,8 +8,8 @@ window.SUBJECT_ORDER = ['mat','geo','bio','fyq','tec','ate','ing'];
 // revision:  última vez que se revisó Classroom (aunque no hubiera cambios).
 // La rutina diaria DEBE actualizar 'revision' en cada ejecución y 'contenido' solo si publica algo. Formato ISO con zona (+02:00 verano, +01:00 invierno).
 window.LAST_UPDATE = {
-  contenido: '2026-11-04T17:15:00+01:00',
-  revision:  '2026-11-06T15:20:00+01:00',
+  contenido: '2026-11-09T16:55:00+01:00',
+  revision:  '2026-11-09T16:55:00+01:00',
   parcial: ''
 };
 (function(){
